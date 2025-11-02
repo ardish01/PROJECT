@@ -1,0 +1,10 @@
+<?php
+// Database Configuration
+// Copy this file to connection.php and update with your database credentials
+
+$con = mysqli_connect("localhost", "your_username", "your_password", "realestate");
+if (!$con) {
+    die("Connection failed: " . mysqli_error($con));
+}
+?>
+
